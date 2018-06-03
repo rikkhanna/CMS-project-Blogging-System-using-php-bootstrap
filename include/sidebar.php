@@ -19,6 +19,35 @@
                     <!-- /.input-group -->
                 </div>
 
+	  
+	  <!-- Login form-->
+	  
+	    <div class="well">
+                    <h4>login</h4>
+					<form action="include/login.php" method="post">
+						<div class="form-group">
+							<input type="text" name="user_name" class="form-control" placeholder="Enter Username">
+							<?php if(isset($_SESSION['wrongName'])){
+							
+							echo "<h6> * Incorrect user-name</h6>";
+							unset($_SESSION['wrongName']);
+}
+							?>
+						</div>
+						<div class="input-group">
+							<input type="password" name="user_password" class="form-control" placeholder="Enter password">
+							<span class="input-group-btn">
+								<input type="submit" class ="btn btn-primary" name="login" value="Login">
+							</span>
+						</div>
+					</form>
+					
+                    <!-- /.input-group -->
+                </div>
+	  
+	  
+	  
+	  
                 <!-- Blog Categories Well -->
                 <div class="well">
                     <h4>Blog Categories</h4>
