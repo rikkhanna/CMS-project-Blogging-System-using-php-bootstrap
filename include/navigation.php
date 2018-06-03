@@ -25,7 +25,7 @@
 					
 					?>
 					<li>
-                        <a href="admin">Admin</a>
+                        <a href="/../CMS/admin/admin.php">Admin</a>
                     </li>
 					
 <!--
