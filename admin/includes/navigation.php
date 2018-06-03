@@ -17,12 +17,12 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i> John Smith <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-user"></i> Profile</a>
+                            <a href="/../CMS/admin/profile.php"><i class="fa fa-fw fa-user"></i> Profile</a>
                         </li>
                        
                         <li class="divider"></li>
                         <li>
-                            <a href="#"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
+                            <a href="/../CMS/include/logout.php"><i class="fa fa-fw fa-power-off"></i> Log Out</a>
                         </li>
                     </ul>
                 </li>
@@ -31,7 +31,7 @@
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
                     <li>
-                        <a href="index.html"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                        <a href="admin.php"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                     </li>
                    <li>
                         <a href="javascript:;" data-toggle="collapse" data-target="#posts"><i class="fa fa-fw fa-arrows-v"></i> Posts <i class="fa fa-fw fa-caret-down"></i></a>
@@ -52,10 +52,10 @@
                         <a href="javascript:;" data-toggle="collapse" data-target="#demo"><i class="fa fa-fw fa-arrows-v"></i> Users <i class="fa fa-fw fa-caret-down"></i></a>
                         <ul id="demo" class="collapse">
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="/../CMS/admin/users.php">Show all users</a>
                             </li>
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="/../CMS/admin/users.php?source=add_user">Add New User</a>
                             </li>
                         </ul>
                     </li>
@@ -63,7 +63,7 @@
                         <a href="/../CMS/admin/comments.php"><i class="fa fa-fw fa-file"></i>Comments</a>
                     </li>
                     <li>
-                        <a href="index-rtl.html"><i class="fa fa-fw fa-dashboard"></i> Profile</a>
+                        <a href="/../CMS/admin/profile.php"><i class="fa fa-fw fa-dashboard"></i> Profile</a>
                     </li>
                 </ul>
             </div>

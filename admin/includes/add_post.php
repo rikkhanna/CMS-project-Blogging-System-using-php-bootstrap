@@ -106,6 +106,7 @@ move_uploaded_file($post_image_temp,"../images/$post_image");
 				echo"<option value='{$cat_id}'>$cat_title</option>";
 					}
 				?>
+				
 			</select>
 
 		</div>
